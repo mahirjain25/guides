@@ -34,7 +34,7 @@ int main()
 }
 ```
 
-The above code returns an error because at line 2 , we have used a colon(:) instead of a semiccolon(;)
+The above code returns an error because at line 2 , we have used a colon(:) instead of a semicolon(;)
 So, let's debug the error :
 
 ```C++
@@ -64,8 +64,7 @@ Hello World!	 I love freeCodeCamp!
 ```
 
  If you realised , the `\t` command created a _tab space_ between the two texts . This is one kind of special command in C++. These special commands are known as *Escape Sequences* .
- They are used to print certain special characters a compiler cannot display.
-
+ They are used to print certain special characters a compiler cannot display. Other examples include escape sequences for inserting a newline or using a backslash. These have been described below.
 #### Useful escape sequences -
 
 * `\'` to print a single inverted comma
@@ -110,7 +109,7 @@ This is because we did not add the inverted commas for the second print statemen
   1 `//`  ~ _Single Line Comments_  : The length of these comments is 1 line (the line it is typed on) .
   2 `/* */` ~ _Multi Line Comments_ : These comments can take up a space of more than one line.
 
-#### Example of using commentts -
+#### Example of using comments -
 
  ```C++
 
