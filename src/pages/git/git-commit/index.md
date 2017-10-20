@@ -5,7 +5,7 @@ title: Git Commit
 ## Git Commit
 The `git commit` command will save all staged changes, along with a brief description from the user, in a "commit" to the local repository.
 
-Commits are at the heart of Git usage. You can think of a commit as a snapshot of your project, where a new version of that project is created in the current repository. Two important features of commits are:
+Commits are at the heart of using Git. You can think of a commit as a snapshot of your project, where a new version of that project is created in the current repository. Two important features of commits are:
 
 - you can recall the commited changes at a later date, or revert the project to that version <a href='https://guide.freecodecamp.org/git/git-checkout' target='_blank' rel='nofollow'>see Git checkout</a> 
 - if multiple commits edit different parts of the project, they will not overwrite each other even if the authors of the commit were unaware of each other. This is one of the benefits of using Git over a tool like Dropbox or Google Drive.
@@ -14,7 +14,7 @@ Commits are at the heart of Git usage. You can think of a commit as a snapshot o
 There are a number of options that can be included with `git commit`. However, this guide will only cover the two most common options. For an extensive list of options, please consult the <a href='https://git-scm.com/docs/git-commit' target='_blank' rel='nofollow'>Git documentation</a>. 
 
 #### The -m Option
-The most common option used with `git commit` is the `-m` option. The `-m` stands for message. When calling `git commit`, it is required to include a message. The message should be a short description of the changes being committed. The message should be at the end of the command and it must be wrapped in quotations `" "`. 
+The most common option used with `git commit` is the `-m` option. The `-m` stands for message. When calling `git commit`, it is required to include a message. The message should be a short description of the changes being committed. The message should be at the end of the command and it must be wrapped in quotations `" "`. The message helps others to understand what changes have been made by you. 
 
 An example of how to use the `-m` option:
 ```shell
