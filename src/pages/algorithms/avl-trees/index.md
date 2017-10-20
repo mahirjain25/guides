@@ -12,4 +12,6 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
 
+<a href='http://www.geeksforgeeks.org/tag/avl-tree/'>Read this article to learn more about AVL trees.</a>
+
 
